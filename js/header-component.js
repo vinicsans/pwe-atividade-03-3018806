@@ -27,7 +27,7 @@ function applyShadowDOM() {
       </style>
   
       <div id="top">
-        <img src="../assets/Logo.jpg" />
+        <img src="../../assets/Logo.jpg" />
   
         <div id="nav_buttons">
           <a href="./index.html">Home</a>
