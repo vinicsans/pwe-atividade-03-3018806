@@ -9,32 +9,30 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 
   <style>
-    * {
-      box-sizing: border-box;
-      padding: 0;
-    }
-    header {
-      display: flex;
-      width: 100%;
-      background-color: #018e2e;
-      height: 4rem;
+    .links a img {
+      width: 4rem;
     }
   </style>
 </head>
 
 <body>
-  
-  <header>
-    <img src="Logo.jpg" />
-  </header>
+  <h2>Cursos</h2>
+
+  <ul>
+    <li><a href="./pages/analise.html">Análise em desenvolvimento de sistemas</a></li>
+    <li><a href="./pages/engenharia.html">Engenharia de produção</a></li>
+    <li><a href="./pages/gestao.html">Gestão em tecnologia da informação</a></li>
+    <li><a href="./pages/letras.html">Letras</a></li>
+    <li><a href="./pages/gestaopublica.html">Gestão Pública</a></li>
+  </ul>
 
   <h2>Eventos</h2>
 
-  <img src="SEJA_RARO.jpg"/>
+  <img src="./assets/SEJA_RARO.jpg"/>
 
   <h2>Sobre a biblioteca</h2>
 
-  <img src="library.jpg" />
+  <img src="./assets/library.jpg" />
 
   <h2>Conheça os novos títulos da biblioteca.</h2>
 
@@ -44,14 +42,14 @@
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/yVbOcB1ryh0?si=0ogiw5KGOk919ry2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-  <div style="height: 3rem;  display: flex;">
-    <img src="MoveTop.png" />
-    <img src="facebook.png" />
+  <div style="height: 3rem;  display: flex; margin: 16px" class="links">
+    <a href="#top"><img src="./assets/MoveTop.png" /></a>
+    <a href="facebook.com"><img src="./assets/facebook.png" /></a>
   </div>
 
   <footer>IFSP - Campus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</footer>
   
-  <script src="script.js"></script>
+  <script src="./js/header-component.js"></script>
 </body>
 
 </html>
