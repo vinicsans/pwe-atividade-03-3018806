@@ -27,7 +27,7 @@ function applyShadowDOM() {
       </style>
   
       <div id="top">
-        <img src="./assets/Logo.jpg" />
+        <img src="https://github.com/vinicsans/pwe-atividade-03-3018806/blob/main/assets/Logo.jpg?raw=true" />
   
         <div id="nav_buttons">
           <a href="./index.html">Home</a>
